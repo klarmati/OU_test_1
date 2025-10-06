@@ -16,6 +16,11 @@ int main() {
         std::cout << a << '\n';
     }
 
+    enum f {
+        trr,
+        frr,
+        zrr
+    };
 
     return 0;
 }
