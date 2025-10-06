@@ -1,26 +1,12 @@
 #include <iostream>
 
-
-void bump(int& variable) {
-    ++variable;
+int Policz(int a, int b) {
+    return a+b;
 }
 
 int main() {
-    std::cout << "Hello World!\n";
-    int a{20};
-    int& ref = a;
-
-    while (a<200) {
-
-        bump(ref);
-        std::cout << a << '\n';
-    }
-
-    enum f {
-        trr,
-        frr,
-        zrr
-    };
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "W pierwszym branchu; 2+3" << Policz(1, 2) << std::endl;
 
     return 0;
 }
